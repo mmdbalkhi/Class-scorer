@@ -1,27 +1,28 @@
-{"people": 
-    [
+{
+    "people": [
         {
             "name": "Ali",
-            "socore": 100},
-            {
-                "name": "Ahmad",
-                "socore": 98
-            },
-        {
-                "name": "Mohamad",
-                "socore": 88
+            "socore": 100
         },
         {
-            "name" : "sirous",
-            "socore" : 41
+            "name": "Ahmad",
+            "socore": 98
         },
         {
-            "name" : "gholam",
-            "socore" : 75
+            "name": "Mohamad",
+            "socore": 88
         },
         {
-            "name" : "Rahim",
-            "socore" : 69
+            "name": "sirous",
+            "socore": 41
+        },
+        {
+            "name": "gholam",
+            "socore": 75
+        },
+        {
+            "name": "Rahim",
+            "socore": 69
         }
     ]
 }

@@ -1,4 +1,4 @@
-import json
+from json import load
 
 def rotbe(student_name, student_socore):
             
@@ -23,10 +23,9 @@ def rotbe(student_name, student_socore):
 
     print(data)
 
-datas = []
-with open('test.json') as json_file:
-    data = json.load(json_file)
-    for p in data['people']:
-        name = p['name']
-        socore = p['socore']
-        rotbe(name, socore)
+json_file = open('test.json')
+data = load(json_file)
+for p in data['people']:
+    name = p['name']
+    socore = p['socore']
+    rotbe(name, socore)
