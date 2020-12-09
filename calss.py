@@ -19,7 +19,7 @@ def rotbe(student_name, student_socore):
         grade = "F"
         data = [student_name, grade]
     else:
-        print("Nomere qhalate!")
+        print("Score Error!")
 
     print(data)
 
