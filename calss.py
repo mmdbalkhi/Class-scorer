@@ -1,11 +1,12 @@
 from json import load
 
+
 def rotbe(student_name, student_socore):
-            
+
     if student_socore <= 100 and student_socore >= 90:
         grade = "A"
         data = [student_name, grade]
-        
+
     elif student_socore <= 89 and student_socore >= 80:
         grade = "B"
         data = [student_name, grade]
@@ -22,6 +23,7 @@ def rotbe(student_name, student_socore):
         print("Score Error!")
 
     print(data)
+
 
 json_file = open('test.json')
 data = load(json_file)
